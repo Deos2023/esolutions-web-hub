@@ -94,7 +94,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
           <p>ESOLUTIONS - TIN Facilitation Center and PAN Centre (Managed by NSDL) | Branch Code: 7142901</p>
-          <p className="mt-2">© {new Date().getFullYear()} ESOLUTIONS. All rights reserved.</p>
+          <p className="mt-2">Copyright © 2025. All Rights Reserved. Website Developed & Maintained by Digital Exposure Online Services</p>
         </div>
       </div>
     </footer>
