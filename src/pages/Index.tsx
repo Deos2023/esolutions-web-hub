@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Index = () => {
   return (
     <main>
-      {/* Hero Section with Blurred Background */}
+      {/* Hero Section with Background Image */}
       <section className="relative bg-esolutions-darkBlue text-white overflow-hidden">
         {/* Background Image with Blur Effect */}
         <div 
@@ -17,7 +17,7 @@ const Index = () => {
             transform: "scale(1.05)" 
           }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-esolutions-darkBlue to-esolutions-blue opacity-90"></div>
+        
         <div className="container mx-auto px-4 py-20 md:py-32 relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
