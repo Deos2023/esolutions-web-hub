@@ -36,16 +36,19 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-esolutions-darkBlue mb-1">Email Us</h3>
-                    <p className="text-gray-500 text-sm">For inquiries:</p>
+                    <p className="text-gray-500 text-sm">Office:</p>
                     <a href="mailto:esolutionsou@gmail.com" className="text-esolutions-blue hover:underline block">
                       esolutionsou@gmail.com
                     </a>
-                    <p className="text-gray-500 text-sm mt-2">Management:</p>
+                    <p className="text-gray-500 text-sm mt-2">Advocates:</p>
                     <a href="mailto:advsourav@yahoo.in" className="text-esolutions-blue hover:underline block">
                       advsourav@yahoo.in
                     </a>
                     <a href="mailto:monisabanerjee5@gmail.com" className="text-esolutions-blue hover:underline block">
                       monisabanerjee5@gmail.com
+                    </a>
+                    <a href="mailto:arijitchatterjeeadv@yahoo.com" className="text-esolutions-blue hover:underline block">
+                      arijitchatterjeeadv@yahoo.com
                     </a>
                   </div>
                 </div>
@@ -59,13 +62,17 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-esolutions-darkBlue mb-1">Call Us</h3>
-                    <p className="text-gray-500 text-sm">Sourav Chatterjee:</p>
+                    <p className="text-gray-500 text-sm">Arjit Chatterjee (Advocate):</p>
+                    <a href="tel:9903057826" className="text-esolutions-blue hover:underline block">
+                      +91 9903057826
+                    </a>
+                    <p className="text-gray-500 text-sm mt-2">Sourav Chatterjee (Advocate):</p>
                     <a href="tel:9831641953" className="text-esolutions-blue hover:underline block">
                       +91 9831641953
                     </a>
-                    <p className="text-gray-500 text-sm mt-2">Monisa Chatterjee:</p>
-                    <a href="tel:7278280679" className="text-esolutions-blue hover:underline block">
-                      +91 7278280679
+                    <p className="text-gray-500 text-sm mt-2">Monisa Chatterjee (Advocate):</p>
+                    <a href="tel:7278180679" className="text-esolutions-blue hover:underline block">
+                      +91 7278180679
                     </a>
                   </div>
                 </div>
@@ -80,7 +87,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-lg text-esolutions-darkBlue mb-1">Visit Us</h3>
                     <p className="text-gray-600">
-                      358 CM Shah Road, Natun Bazar,<br />
+                      358 C M Sha Road, Natun Bazar,<br />
                       Monirampore, Barrackpore,<br />
                       Kolkata - 700120,<br />
                       North 24 Parganas, West Bengal

@@ -22,7 +22,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-2 text-gray-300 mb-2">
               <MapPin size={18} className="text-esolutions-red" />
-              <span>358 CM Shah Road, Natun Bazar, Monirampore</span>
+              <span>358 C M Sha Road, Natun Bazar, Monirampore</span>
             </div>
             <div className="ml-6 text-gray-300 mb-2">
               <span>Barrackpore, Kolkata - 700120</span>
@@ -30,13 +30,48 @@ const Footer = () => {
             <div className="ml-6 text-gray-300 mb-4">
               <span>North 24 Parganas, West Bengal</span>
             </div>
-            <div className="flex items-center gap-2 text-gray-300 mb-2">
-              <Phone size={18} className="text-esolutions-red" />
-              <a href="tel:9831641953" className="hover:text-white">9831641953</a>
-            </div>
-            <div className="flex items-center gap-2 text-gray-300">
-              <Mail size={18} className="text-esolutions-red" />
-              <a href="mailto:esolutionsou@gmail.com" className="hover:text-white">esolutionsou@gmail.com</a>
+            
+            {/* Contact Information */}
+            <div className="space-y-2">
+              <div className="flex items-center gap-2 text-gray-300">
+                <Phone size={18} className="text-esolutions-red" />
+                <div>
+                  <div className="flex flex-col">
+                    <span className="text-sm">Arjit Chatterjee (Advocate):</span>
+                    <a href="tel:9903057826" className="hover:text-white">9903057826</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-2 text-gray-300">
+                <Phone size={18} className="text-esolutions-red" />
+                <div>
+                  <div className="flex flex-col">
+                    <span className="text-sm">Sourav Chatterjee (Advocate):</span>
+                    <a href="tel:9831641953" className="hover:text-white">9831641953</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-2 text-gray-300">
+                <Phone size={18} className="text-esolutions-red" />
+                <div>
+                  <div className="flex flex-col">
+                    <span className="text-sm">Monisa Chatterjee (Advocate):</span>
+                    <a href="tel:7278180679" className="hover:text-white">7278180679</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-2 text-gray-300 mt-4">
+                <Mail size={18} className="text-esolutions-red mt-1" />
+                <div className="flex flex-col">
+                  <a href="mailto:esolutionsou@gmail.com" className="hover:text-white">esolutionsou@gmail.com</a>
+                  <a href="mailto:advsourav@yahoo.in" className="hover:text-white">advsourav@yahoo.in</a>
+                  <a href="mailto:monisabanerjee5@gmail.com" className="hover:text-white">monisabanerjee5@gmail.com</a>
+                  <a href="mailto:arijitchatterjeeadv@yahoo.com" className="hover:text-white">arijitchatterjeeadv@yahoo.com</a>
+                </div>
+              </div>
             </div>
           </div>
 
