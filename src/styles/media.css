@@ -1,0 +1,13 @@
+
+/* Image hover effects */
+.img-hover-zoom {
+  @apply overflow-hidden;
+}
+
+.img-hover-zoom img {
+  @apply transition-transform duration-500 ease-out;
+}
+
+.img-hover-zoom:hover img {
+  @apply transform scale-110;
+}

@@ -1,0 +1,50 @@
+
+/* Premium UI Effects */
+.premium-card {
+  @apply rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden;
+}
+
+/* Enhanced card effects */
+.service-card {
+  @apply relative bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 border border-gray-100;
+}
+
+.service-card:hover {
+  @apply shadow-xl transform -translate-y-1 border-esolutions-blue/20;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(to bottom, rgba(45, 156, 219, 0.05), transparent);
+  transition: height 0.3s ease-out;
+  z-index: 0;
+}
+
+.service-card:hover::before {
+  height: 100%;
+}
+
+/* Premium button styles */
+.button-premium {
+  @apply relative overflow-hidden transition-all duration-300 ease-out;
+}
+
+.button-premium::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.7s ease-out;
+}
+
+.button-premium:hover::after {
+  left: 100%;
+}
