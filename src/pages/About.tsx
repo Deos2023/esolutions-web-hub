@@ -1,4 +1,13 @@
 
+import { 
+  Building, 
+  Award, 
+  Briefcase, 
+  UserCheck, 
+  Trophy,
+  FileCheck 
+} from "lucide-react";
+
 const About = () => {
   return (
     <main>
@@ -40,6 +49,122 @@ const About = () => {
             </p>
           </div>
         </div>
+        
+        {/* Collaborations Section */}
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold mb-8 text-esolutions-darkBlue text-center">Our Key Collaborations</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="flex items-center gap-3 mb-3">
+                <Building className="text-esolutions-blue" />
+                <h3 className="text-lg font-semibold text-esolutions-darkBlue">Cantonment Board Barrackpore</h3>
+              </div>
+              <p className="text-gray-600">Account Assistant and Tax Consultant services</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="flex items-center gap-3 mb-3">
+                <Building className="text-esolutions-blue" />
+                <h3 className="text-lg font-semibold text-esolutions-darkBlue">GE North Kolkata</h3>
+              </div>
+              <p className="text-gray-600">Ongoing collaboration as Tax Consultant</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="flex items-center gap-3 mb-3">
+                <Building className="text-esolutions-blue" />
+                <h3 className="text-lg font-semibold text-esolutions-darkBlue">DEO Gujarat</h3>
+              </div>
+              <p className="text-gray-600">Providing Tax Consultant services</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="flex items-center gap-3 mb-3">
+                <UserCheck className="text-esolutions-purple" />
+                <h3 className="text-lg font-semibold text-esolutions-darkBlue">Indian Psychiatric Society</h3>
+              </div>
+              <p className="text-gray-600">Collaboration up to March 2023</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="flex items-center gap-3 mb-3">
+                <Building className="text-esolutions-blue" />
+                <h3 className="text-lg font-semibold text-esolutions-darkBlue">GE Fort William</h3>
+              </div>
+              <p className="text-gray-600">Active collaboration as Tax Consultant</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="flex items-center gap-3 mb-3">
+                <Briefcase className="text-esolutions-red" />
+                <h3 className="text-lg font-semibold text-esolutions-darkBlue">ICA Barrackpore</h3>
+              </div>
+              <p className="text-gray-600">Director awarded for excellence in service</p>
+            </div>
+          </div>
+        </div>
+        
+        {/* Awards & Recognitions */}
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold mb-8 text-esolutions-darkBlue text-center">Awards & Appreciation</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            {/* Award 1 */}
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="flex items-center gap-3 mb-4">
+                <Trophy className="text-esolutions-red" size={24} />
+                <h3 className="text-xl font-bold text-esolutions-darkBlue">ICA Barrackpore Director Award</h3>
+              </div>
+              <div className="flex flex-col md:flex-row gap-6">
+                <div className="md:w-1/2">
+                  <img 
+                    src="/lovable-uploads/b7c465cb-0043-447f-8af7-0fc2ecfa377e.png" 
+                    alt="ICA Barrackpore Award Ceremony" 
+                    className="rounded-lg shadow-md w-full"
+                  />
+                </div>
+                <div className="md:w-1/2">
+                  <p className="text-gray-600 mb-3">
+                    Our director was honored with a prestigious award from ICA Barrackpore for outstanding contribution 
+                    in the field of tax consultancy and financial services.
+                  </p>
+                  <p className="text-gray-600">
+                    This recognition highlights our commitment to excellence and the trust placed in our services by 
+                    esteemed organizations.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            {/* Appreciation Letter */}
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="flex items-center gap-3 mb-4">
+                <FileCheck className="text-esolutions-blue" size={24} />
+                <h3 className="text-xl font-bold text-esolutions-darkBlue">Appreciation from Maj. Deepak Singh</h3>
+              </div>
+              <div className="flex flex-col md:flex-row gap-6">
+                <div className="md:w-1/2">
+                  <img 
+                    src="/lovable-uploads/7374788c-017e-4d97-96df-45b7b7836125.png" 
+                    alt="Appreciation Letter from Maj Deepak Singh" 
+                    className="rounded-lg shadow-md w-full"
+                  />
+                </div>
+                <div className="md:w-1/2">
+                  <p className="text-gray-600 mb-3">
+                    Special appreciation from Maj. Deepak Singh, Garrison Engineer (North) Kolkata, for our exceptional 
+                    work in resolving an outstanding TDS/TCS demand of ₹31,44,350.
+                  </p>
+                  <p className="text-gray-600">
+                    The letter commends our team's selfless efforts and professional approach under challenging 
+                    circumstances, showcasing our capability and teamwork.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* Team Section */}
         <div className="mt-16">
@@ -79,7 +204,7 @@ const About = () => {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-2 text-esolutions-blue">Main Office</h3>
               <p className="text-gray-600 mb-4">
-                358 CM Shah Road, Natun Bazar, Monirampore<br />
+                358 C M Sha Road, Natun Bazar, Monirampore<br />
                 Barrackpore, Kolkata - 700120<br />
                 North 24 Parganas, West Bengal
               </p>
