@@ -8,9 +8,15 @@ const AboutBrief = ({ addToRefs }: { addToRefs: (el: HTMLElement | null) => void
       ref={addToRefs} 
       className="relative py-20 overflow-hidden scroll-reveal"
       style={{
-        background: "linear-gradient(135deg, #f5f7fa 0%, #eef2f7 100%)",
+        backgroundImage: "url('https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed",
       }}
     >
+      {/* Semi-transparent overlay */}
+      <div className="absolute inset-0 bg-white/90"></div>
+      
       {/* Decorative pattern */}
       <div className="absolute top-0 left-0 w-full h-20" 
         style={{
@@ -19,7 +25,7 @@ const AboutBrief = ({ addToRefs }: { addToRefs: (el: HTMLElement | null) => void
         }}
       ></div>
       
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="md:w-1/2 img-hover-zoom">
             <img 
@@ -39,7 +45,7 @@ const AboutBrief = ({ addToRefs }: { addToRefs: (el: HTMLElement | null) => void
             <p className="text-gray-600 mb-8 text-lg leading-relaxed">
               Our team of experienced professionals is committed to providing high-quality services tailored to meet the unique needs of each client.
             </p>
-            <Button asChild className="bg-esolutions-blue hover:bg-esolutions-purple button-premium">
+            <Button asChild className="button-dark-to-light button-premium">
               <Link to="/about">Learn More About Us</Link>
             </Button>
           </div>

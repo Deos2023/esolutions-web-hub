@@ -7,13 +7,15 @@ const ServicesOverview = ({ addToRefs }: { addToRefs: (el: HTMLElement | null) =
   return (
     <section 
       ref={addToRefs} 
-      className="section-pattern relative py-20 scroll-reveal"
+      className="relative py-20 scroll-reveal"
       style={{
+        backgroundImage: "url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')",
         backgroundSize: "cover",
+        backgroundPosition: "center",
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-br from-white to-gray-50 opacity-95"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-white/95 to-white/90"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-2xl mx-auto mb-16">
@@ -116,7 +118,7 @@ const ServicesOverview = ({ addToRefs }: { addToRefs: (el: HTMLElement | null) =
         </div>
 
         <div className="text-center mt-12">
-          <Button asChild className="bg-esolutions-blue hover:bg-esolutions-purple button-premium">
+          <Button asChild className="button-dark-to-light button-premium">
             <Link to="/services">View All Services</Link>
           </Button>
         </div>

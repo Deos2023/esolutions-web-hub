@@ -30,10 +30,10 @@ const ContactCTA = ({ addToRefs }: { addToRefs: (el: HTMLElement | null) => void
           Contact us today to discuss how we can help with your tax and business needs.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Button asChild className="bg-white text-esolutions-blue hover:bg-gray-100 button-premium">
+          <Button asChild className="button-contrast-fix button-premium">
             <Link to="/contact">Contact Us</Link>
           </Button>
-          <Button asChild variant="outline" className="text-white border-white hover:bg-white/10 button-premium">
+          <Button asChild variant="outline" className="bg-transparent border-white text-white hover:bg-white/10 button-premium">
             <a href="tel:9831641953">Call Now: 9831641953</a>
           </Button>
         </div>

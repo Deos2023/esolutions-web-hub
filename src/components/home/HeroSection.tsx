@@ -32,10 +32,10 @@ const HeroSection = () => {
             With over 45 years of experience, ESOLUTIONS provides comprehensive tax and business services under one roof.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fadeInRight delay-300">
-            <Button asChild className="bg-esolutions-red hover:bg-red-700 button-premium">
+            <Button asChild className="bg-white text-esolutions-darkBlue hover:bg-esolutions-blue hover:text-white button-premium">
               <Link to="/services">Our Services</Link>
             </Button>
-            <Button asChild variant="outline" className="text-white border-white hover:bg-white/10 button-premium">
+            <Button asChild variant="outline" className="bg-transparent border-white text-white hover:bg-white/10 button-premium">
               <Link to="/contact">Contact Us</Link>
             </Button>
           </div>

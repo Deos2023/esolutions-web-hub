@@ -48,3 +48,13 @@
 .button-premium:hover::after {
   left: 100%;
 }
+
+/* Fix button contrast issues */
+.button-contrast-fix {
+  @apply bg-white text-esolutions-darkBlue font-medium hover:bg-esolutions-blue hover:text-white;
+}
+
+/* Dark text button with light hover */
+.button-dark-to-light {
+  @apply bg-gray-100 text-esolutions-darkBlue font-medium hover:bg-esolutions-blue hover:text-white;
+}
