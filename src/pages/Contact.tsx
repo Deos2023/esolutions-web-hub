@@ -1,4 +1,3 @@
-
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 
@@ -71,8 +70,8 @@ const Contact = () => {
                       +91 9831641953
                     </a>
                     <p className="text-gray-500 text-sm mt-2">Monisa Chatterjee (Advocate):</p>
-                    <a href="tel:7278180679" className="text-esolutions-blue hover:underline block">
-                      +91 7278180679
+                    <a href="tel:7278280679" className="text-esolutions-blue hover:underline block">
+                      +91 7278280679
                     </a>
                   </div>
                 </div>
@@ -106,12 +105,8 @@ const Contact = () => {
                     <h3 className="font-semibold text-lg text-esolutions-darkBlue mb-1">Business Hours</h3>
                     <div className="text-gray-600">
                       <div className="flex justify-between">
-                        <span>Monday - Friday:</span>
-                        <span>10:00 AM - 6:00 PM</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>Saturday:</span>
-                        <span>10:00 AM - 4:00 PM</span>
+                        <span>Monday - Saturday:</span>
+                        <span>10:00 AM - 8:30 PM</span>
                       </div>
                       <div className="flex justify-between">
                         <span>Sunday:</span>

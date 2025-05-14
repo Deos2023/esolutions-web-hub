@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
 
@@ -58,7 +57,7 @@ const Footer = () => {
                 <div>
                   <div className="flex flex-col">
                     <span className="text-sm">Monisa Chatterjee (Advocate):</span>
-                    <a href="tel:7278180679" className="hover:text-white">7278180679</a>
+                    <a href="tel:7278280679" className="hover:text-white">7278280679</a>
                   </div>
                 </div>
               </div>
@@ -102,12 +101,8 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4 border-b border-gray-700 pb-2">Office Hours</h3>
             <ul className="space-y-2 text-gray-300">
               <li className="flex justify-between">
-                <span>Monday - Friday:</span>
-                <span>10:00 AM - 6:00 PM</span>
-              </li>
-              <li className="flex justify-between">
-                <span>Saturday:</span>
-                <span>10:00 AM - 4:00 PM</span>
+                <span>Monday - Saturday:</span>
+                <span>10:00 AM - 8:30 PM</span>
               </li>
               <li className="flex justify-between">
                 <span>Sunday:</span>

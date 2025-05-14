@@ -1,4 +1,3 @@
-
 import { 
   Building, 
   Award, 
@@ -58,9 +57,9 @@ const About = () => {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center gap-3 mb-3">
                 <Building className="text-esolutions-blue" />
-                <h3 className="text-lg font-semibold text-esolutions-darkBlue">Cantonment Board Barrackpore</h3>
+                <h3 className="text-lg font-semibold text-esolutions-darkBlue">GE Fort William</h3>
               </div>
-              <p className="text-gray-600">Account Assistant and Tax Consultant services</p>
+              <p className="text-gray-600">Active collaboration as Tax Consultant</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -69,6 +68,14 @@ const About = () => {
                 <h3 className="text-lg font-semibold text-esolutions-darkBlue">GE North Kolkata</h3>
               </div>
               <p className="text-gray-600">Ongoing collaboration as Tax Consultant</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="flex items-center gap-3 mb-3">
+                <Building className="text-esolutions-blue" />
+                <h3 className="text-lg font-semibold text-esolutions-darkBlue">Cantonment Board Barrackpore</h3>
+              </div>
+              <p className="text-gray-600">Account Assistant and Tax Consultant services</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -85,14 +92,6 @@ const About = () => {
                 <h3 className="text-lg font-semibold text-esolutions-darkBlue">Indian Psychiatric Society</h3>
               </div>
               <p className="text-gray-600">Collaboration up to March 2023</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="flex items-center gap-3 mb-3">
-                <Building className="text-esolutions-blue" />
-                <h3 className="text-lg font-semibold text-esolutions-darkBlue">GE Fort William</h3>
-              </div>
-              <p className="text-gray-600">Active collaboration as Tax Consultant</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
