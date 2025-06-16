@@ -14,7 +14,7 @@ const teamMembers = [
   {
     initials: "MC",
     name: "Monisa Chatterjee",
-    title: "Senior Tax Consultant",
+    title: "B.A.LL.B.",
     phone: "7278280679",
     email: "monisabanerjee5@gmail.com",
     bgColor: "bg-esolutions-purple/10",
