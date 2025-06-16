@@ -79,8 +79,8 @@ const Gallery = () => {
                 North 24 Parganas, West Bengal
               </p>
               <p className="text-gray-600 mt-4 italic">
-                Office Hours: Monday - Friday (10:00 AM - 6:00 PM)<br />
-                Saturday (10:00 AM - 4:00 PM)
+                Office Hours: Monday - Saturday (10:00 AM - 8:30 PM)<br />
+                Sunday: Closed
               </p>
             </div>
             
