@@ -2,23 +2,23 @@
 const Gallery = () => {
   const images = [
     {
-      src: "/lovable-uploads/c0bdb022-9f9e-479d-83cc-e02499d04e2e.png",
+      src: "/lovable-uploads/office.jpeg",
       alt: "ESOLUTIONS Building Exterior"
     },
     {
-      src: "/lovable-uploads/54dde00e-c07e-4f61-b599-eab312f9889a.png",
+      src: "/lovable-uploads/office2.jpeg",
       alt: "ESOLUTIONS Office Interior"
     },
     {
-      src: "/lovable-uploads/40fd99bc-8226-46d4-9158-a1e01c953c2f.png",
+      src: "/lovable-uploads/poster.jpeg",
       alt: "ESOLUTIONS Building View"
     },
     {
-      src: "/lovable-uploads/69964258-a24c-4121-913b-b9edf12bac02.png",
+      src: "/lovable-uploads/address.jpeg",
       alt: "ESOLUTIONS Office Front"
     },
     {
-      src: "/lovable-uploads/1de6e765-ea4c-4665-97db-954a8b557b18.png",
+      src: "/lovable-uploads/office3.jpeg",
       alt: "ESOLUTIONS Office Workspace"
     },
     {
@@ -29,10 +29,6 @@ const Gallery = () => {
       src: "/lovable-uploads/328ab4f1-70fd-49d3-a5bb-866360240d04.png",
       alt: "ESOLUTIONS Logo"
     },
-    {
-      src: "/lovable-uploads/1934b13e-c128-4634-a215-abb03a83cefa.png",
-      alt: "ESOLUTIONS Office Interior View"
-    }
   ];
 
   return (
@@ -59,6 +55,7 @@ const Gallery = () => {
               />
             </div>
           ))}
+          <video src="/lovable-uploads/office-video.mp4" controls className="w-full h-64 object-cover rounded-lg shadow-md"></video>
         </div>
       </section>
 

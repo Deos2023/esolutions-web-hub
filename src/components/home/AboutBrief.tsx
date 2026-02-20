@@ -29,7 +29,7 @@ const AboutBrief = ({ addToRefs }: { addToRefs: (el: HTMLElement | null) => void
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="md:w-1/2 img-hover-zoom">
             <img 
-              src="/lovable-uploads/69964258-a24c-4121-913b-b9edf12bac02.png" 
+              src="/lovable-uploads/address.jpeg" 
               alt="ESOLUTIONS Office" 
               className="rounded-lg shadow-lg"
             />

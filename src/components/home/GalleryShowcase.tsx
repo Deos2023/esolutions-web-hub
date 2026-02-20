@@ -18,19 +18,19 @@ const GalleryShowcase = ({ addToRefs }: GalleryShowcaseProps) => {
   // Gallery images for the home page (subset of the full gallery)
   const galleryImages = [
     {
-      src: "/lovable-uploads/c0bdb022-9f9e-479d-83cc-e02499d04e2e.png",
+      src: "/lovable-uploads/office.jpeg",
       alt: "ESOLUTIONS Building Exterior"
     },
     {
-      src: "/lovable-uploads/54dde00e-c07e-4f61-b599-eab312f9889a.png",
+      src: "/lovable-uploads/office2.jpeg",
       alt: "ESOLUTIONS Office Interior"
     },
     {
-      src: "/lovable-uploads/40fd99bc-8226-46d4-9158-a1e01c953c2f.png",
+      src: "/lovable-uploads/poster.jpeg",
       alt: "ESOLUTIONS Building View"
     },
     {
-      src: "/lovable-uploads/69964258-a24c-4121-913b-b9edf12bac02.png",
+      src: "/lovable-uploads/address.jpeg",
       alt: "ESOLUTIONS Office Front"
     }
   ];
