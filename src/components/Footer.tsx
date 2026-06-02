@@ -15,7 +15,7 @@ const Footer = () => {
                 alt="ESOLUTIONS Logo" 
                 className="w-10 h-10"
               />
-              <span className="font-bold text-2xl">ESOLUTIONS</span>
+              <span className="font-bold text-2xl">ESOLUTION</span>
             </div>
             <p className="text-gray-300 mb-4">
               Multiple Tax Solution Provider Under One Roof with over 45 years of experience.
