@@ -36,11 +36,11 @@ const AboutBrief = ({ addToRefs }: { addToRefs: (el: HTMLElement | null) => void
           </div>
           <div className="md:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-esolutions-darkBlue relative inline-block">
-              About ESOLUTIONS
+              About ESOLUTION
               <span className="absolute -bottom-2 left-0 w-1/3 h-1 bg-esolutions-red rounded-full"></span>
             </h2>
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
-              ESOLUTIONS is an established tax and business services provider with over 45 years of experience. We are an authorized TIN Facilitation Center and PAN Centre managed by NSDL (Branch Code: 7142901).
+              ESOLUTION is an established tax and business services provider with over 45 years of experience. We are an authorized TIN Facilitation Center and PAN Centre managed by NSDL (Branch Code: 7142901).
             </p>
             <p className="text-gray-600 mb-8 text-lg leading-relaxed">
               Our team of experienced professionals is committed to providing high-quality services tailored to meet the unique needs of each client.

@@ -24,7 +24,7 @@ const ServicesOverview = ({ addToRefs }: { addToRefs: (el: HTMLElement | null) =
             <span className="absolute -bottom-2 left-1/4 right-1/4 h-1 bg-esolutions-red rounded-full"></span>
           </h2>
           <p className="text-gray-600 mt-4">
-            ESOLUTIONS offers a wide range of tax and business services tailored to meet your specific needs.
+            ESOLUTION offers a wide range of tax and business services tailored to meet your specific needs.
           </p>
         </div>
 

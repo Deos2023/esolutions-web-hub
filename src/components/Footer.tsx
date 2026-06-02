@@ -124,8 +124,17 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
-          <p>ESOLUTIONS - TIN Facilitation Center and PAN Centre (Managed by NSDL) | Branch Code: 7142901</p>
-          <p className="mt-2">Copyright © 2025. All Rights Reserved. Website Developed & Maintained by Digital Exposure Online Services</p>
+          <p>ESOLUTION - TIN Facilitation Center and PAN Centre (Managed by NSDL) | Branch Code: 7142901</p>
+          <p className="mt-2">Copyright © 2026. Website Developed & Maintained by 
+            <a
+              href="https://www.teamdeoskolkata.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold hover:text-red-700 transition-colors duration-300 ml-1"
+            >
+              Digital Exposure Online Service 
+            </a>.
+          </p>
         </div>
       </div>
     </footer>
